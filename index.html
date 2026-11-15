@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Student Grading System</h2>
+
+    <div class="container">
+
+        <label>Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter student name">
+
+        <label>English:</label>
+        <input type="number" id="english" placeholder="Enter score">
+
+        <label>Mathematics:</label>
+        <input type="number" id="maths" placeholder="Enter score">
+
+        <label>Computer:</label>
+        <input type="number" id="computer" placeholder="Enter score">
+
+        <button onclick="calculateGrade()">Calculate Grade</button>
+
+        <h3 id="result"></h3>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
